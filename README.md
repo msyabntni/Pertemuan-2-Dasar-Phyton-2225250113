@@ -28,10 +28,12 @@ Melalui repository ini, mahasiswa dapat:
 
 | No. | Berkas | Fungsi |
 |---|---|---|
-| 1 | `latihan/01_biodata.py` | Membuat program biodata dengan input nama, NIM, kelas, dan tahun lahir serta menghitung perkiraan umur. |
-| 2 | `latihan/02_persegi_panjang.py` | Menghitung luas dan keliling persegi panjang berdasarkan panjang dan lebar yang dimasukkan pengguna. |
-| 3 | `latihan/03_konversi_suhu.py` | Mengonversikan suhu dari Celsius ke Fahrenheit dan Kelvin. |
-| 4 | `README.md` | Berisi identitas, tujuan repository, daftar berkas, penjelasan program, dan hasil pengujian. |
+| 1 | `latihan/01_biodata.py` | Meminta nama, NIM, kelas, dan tahun lahir, kemudian menghitung perkiraan umur dan menampilkan kartu biodata. |
+| 2 | `latihan/02_persegi_panjang.py` | Meminta panjang dan lebar, kemudian menghitung luas dan keliling persegi panjang. |
+| 3 | `latihan/03_konversi_suhu.py` | Mengubah suhu dari Celsius ke Fahrenheit dan Kelvin menggunakan rumus konversi suhu. |
+| 4 | `latihan/04_nilai_akhir.py` | Menghitung nilai akhir berdasarkan nilai tugas, UTS, dan UAS dengan bobot 30%, 30%, dan 40%. |
+| 5 | `tugas_utama/kalkulator_koordinat.py` | Menghitung perubahan koordinat, jarak antara dua titik, dan titik tengah dari titik A dan titik B. |
+| 6 | `README.md` | Berisi identitas, tujuan repository, daftar berkas, cara menjalankan program, hasil pengujian, refleksi, dan sumber yang digunakan. |
 
 ## Cara Menjalankan Program
 

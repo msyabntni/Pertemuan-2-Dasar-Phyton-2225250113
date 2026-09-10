@@ -30,48 +30,64 @@ Melalui repository ini, mahasiswa dapat:
 
 ## Cara Menjalankan Program
 
-1. Pastikan Python sudah terinstal di komputer.
-2. Buka folder repository menggunakan Visual Studio Code.
-3. Buka Terminal di VS Code.
-4. Jalankan salah satu file Python dengan perintah berikut:
+Program dapat dijalankan melalui terminal dengan perintah berikut:
 
 ### Latihan 1 - Biodata
 
 ```bash
 python latihan/01_biodata.py
+```
+
+### Latihan 2 - Persegi Panjang
+
+```bash
 python latihan/02_persegi_panjang.py
-python latihan/03_konversi_suhu.py
+```
 
-Kalau **khusus Latihan 3**, bagian README-nya bisa dibuat lebih singkat:
-
-```markdown
-## Cara Menjalankan Program
-
-1. Buka repository menggunakan Visual Studio Code.
-2. Buka Terminal.
-3. Jalankan perintah:
+### Latihan 3 - Konversi Suhu
 
 ```bash
 python latihan/03_konversi_suhu.py
+```
 
-## Hasil Pengujian Utama
+Setelah menjalankan program, masukkan data sesuai dengan input yang diminta pada terminal.
 
-Pengujian dilakukan menggunakan dua nilai Celsius, yaitu 0°C dan 100°C. Hasil program kemudian dibandingkan dengan perhitungan manual.
+### Latihan 4 - Nilai Akhir
 
-| No. | Input | Output Fahrenheit | Output Kelvin | Hasil Pengujian |
-|---|---:|---:|---:|---|
-| 1 | 0°C | 32.00°F | 273.15 K | Berhasil |
-| 2 | 100°C | 212.00°F | 373.15 K | Berhasil |
+```bash
+python latihan/04_nilai_akhir.py
+```
 
-Berdasarkan pengujian, hasil konversi dari program sesuai dengan hasil perhitungan manual.
+### Tugas Utama - Kalkulator Koordinat Dua Titik
+
+Jalankan program melalui terminal dengan perintah:
+
+```bash
+python tugas_utama/kalkulator_koordinat.py
+```
+
+Kemudian masukkan koordinat titik A dan titik B sesuai dengan input yang diminta.
+
+## Hasil Pengujian Tugas Utama
+
+| No. | Titik A | Titik B | dx | dy | Jarak A ke B | Titik Tengah |
+|---|---|---|---:|---:|---:|---|
+| 1 | (2, 3) | (6, 6) | 4.00 | 3.00 | 5.00 | (4.00, 4.50) |
+| 2 | (0, 0) | (3, 4) | 3.00 | 4.00 | 5.00 | (1.50, 2.00) |
+| 3 | (-2, 1) | (4, 5) | 6.00 | 4.00 | 7.21 | (1.00, 3.00) |
+
+### Kesimpulan Pengujian
+
+Berdasarkan beberapa pengujian, program berhasil menghitung perubahan koordinat, jarak antara dua titik, dan titik tengah dengan hasil yang sesuai dengan perhitungan manual.
 
 ## Refleksi
 
-Dari latihan konversi suhu ini, saya belajar menggunakan input dengan tipe data `float`, membuat konstanta, serta menerapkan rumus matematika ke dalam program Python. Saya juga belajar bahwa hasil program perlu diuji menggunakan beberapa nilai dan dibandingkan dengan perhitungan manual untuk memastikan program berjalan dengan benar.
+Melalui tugas utama ini, saya belajar menerapkan konsep koordinat dua titik ke dalam program Python. Saya memahami cara menghitung perubahan koordinat, jarak antara dua titik, dan titik tengah menggunakan rumus matematika.
 
-Latihan ini membantu saya lebih memahami hubungan antara rumus matematika dan cara menerapkannya dalam bahasa pemrograman Python.
+Saya juga belajar menggunakan input `float`, operasi aritmatika, serta f-string untuk menampilkan hasil dengan format yang lebih rapi. Dari pengujian yang dilakukan, saya memahami pentingnya mengecek hasil program dengan perhitungan manual agar program dapat dipastikan berjalan dengan benar.
+
 ## Sumber yang Digunakan
 
 1. Modul/Bahan Ajar Mata Kuliah Algoritma dan Pemrograman.
-2. Dokumentasi resmi Python untuk fungsi `input()`, tipe data `float`, konstanta, dan f-string.
-3. Materi pembelajaran mengenai konversi suhu Celsius, Fahrenheit, dan Kelvin.
+2. Materi koordinat Kartesius dan jarak antara dua titik.
+3. Dokumentasi resmi Python untuk penggunaan `input()`, `float()`, operasi aritmatika, dan f-string.

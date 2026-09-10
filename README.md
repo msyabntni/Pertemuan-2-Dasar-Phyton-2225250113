@@ -1,8 +1,11 @@
 # Identitas
 
-**Nama:** Masya Bantani  
-**NIM:** 2225250113 
+**Nama:** Masya Bantani 
+
+**NIM:** 2225250113
+
 **Kelas:** 3E
+
 **Mata Kuliah:** Algoritma dan Pemrograman  
 **Program Studi:** Pendidikan Matematika  
 **Universitas:** Universitas Sultan Ageng Tirtayasa (UNTIRTA)

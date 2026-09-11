@@ -76,7 +76,7 @@ python tugas_utama/kalkulator_koordinat.py
 Kemudian masukkan koordinat titik A dan titik B sesuai dengan input yang diminta.
 
 ## Hasil Test Case
-
+### Latihan
 ### 1. Program Biodata
 
 | Test Case | Nama | NIM | Kelas | Tahun Lahir | Hasil Umur |

@@ -75,13 +75,69 @@ python tugas_utama/kalkulator_koordinat.py
 
 Kemudian masukkan koordinat titik A dan titik B sesuai dengan input yang diminta.
 
-## Hasil Pengujian Tugas Utama
+## Hasil Test Case
 
-| No. | Titik A | Titik B | dx | dy | Jarak A ke B | Titik Tengah |
+### 1. Program Biodata
+
+| Test Case | Nama | NIM | Kelas | Tahun Lahir | Hasil Umur |
+|---|---|---|---|---:|---:|
+| 1 | Masya | 2225250113 | Pendidikan Matematika | 2006 | 20 tahun |
+| 2 | Siti | 1234567890 | A | 2005 | 21 tahun |
+
+**Hasil:** Program berhasil menerima input nama, NIM, kelas, dan tahun lahir serta menghitung perkiraan umur berdasarkan tahun lahir.
+
+---
+
+### 2. Program Persegi Panjang
+
+| Test Case | Panjang | Lebar | Luas | Keliling |
+|---|---:|---:|---:|---:|
+| 1 | 8 | 5 | 40.00 | 26.00 |
+| 2 | 2.5 | 4 | 10.00 | 13.00 |
+
+**Hasil:** Program berhasil menghitung luas dan keliling persegi panjang sesuai dengan rumus.
+
+---
+
+### 3. Program Konversi Suhu
+
+| Test Case | Celsius | Fahrenheit | Kelvin |
+|---|---:|---:|---:|
+| 1 | 0 | 32.00 °F | 273.15 K |
+| 2 | 100 | 212.00 °F | 373.15 K |
+
+**Hasil:** Program berhasil mengonversikan suhu dari Celsius ke Fahrenheit dan Kelvin dengan hasil yang sesuai.
+
+---
+
+### 4. Program Nilai Akhir
+
+| Test Case | Nilai Tugas | Nilai UTS | Nilai UAS | Nilai Akhir |
+|---|---:|---:|---:|---:|
+| 1 | 80 | 75 | 90 | 82.50 |
+| 2 | 70 | 80 | 85 | 79.00 |
+
+**Hasil:** Program berhasil menghitung nilai akhir berdasarkan bobot nilai tugas 30%, UTS 30%, dan UAS 40%.
+
+---
+
+### 5. Tugas Utama – Kalkulator Koordinat Dua Titik
+
+| Test Case | Titik A | Titik B | dx | dy | Jarak | Titik Tengah |
 |---|---|---|---:|---:|---:|---|
-| 1 | (0, 0) | (3, 4) | 3.00 | 4.00 | 5.00 | (1.50, 2.00) |
-| 2 | (-2, 1) | (4, 1) | 6.00 | 0.00 | 6.00 | (1.00, 1.00) |
+| 1 | (0, 0) | (-2, 1) | -2.00 | 1.00 | 2.24 | (-1.00, 0.50) |
+| 2 | (2, 5) | (-1, -1) | -3.00 | -6.00 | 6.71 | (0.50, 2.00) |
 | 3 | (2,5, -1) | (2,5, 3) | 0.00 | 4.00 | 4.00 | (2.50, 1.00) |
+
+
+**Hasil:** Program berhasil menghitung perubahan koordinat, jarak antara dua titik, dan titik tengah dengan hasil yang sesuai.
+
+---
+
+## Kesimpulan Pengujian
+
+Berdasarkan test case yang telah dilakukan, seluruh program dapat menerima input dan menghasilkan output sesuai dengan perhitungan yang diharapkan. Pengujian dilakukan menggunakan beberapa variasi data untuk memastikan setiap program dapat berjalan dengan baik.
+
 
 ### Kesimpulan Pengujian
 

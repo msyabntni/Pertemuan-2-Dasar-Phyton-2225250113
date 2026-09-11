@@ -81,7 +81,7 @@ Kemudian masukkan koordinat titik A dan titik B sesuai dengan input yang diminta
 
 | Test Case | Nama | NIM | Kelas | Tahun Lahir | Hasil Umur |
 |---|---|---|---|---:|---:|
-| 1 | Masya | 2225250113 | Pendidikan Matematika | 2006 | 20 tahun |
+| 1 | Masya Bantani| 2225250113 | Pendidikan Matematika | 2006 | 20 tahun |
 
 
 **Hasil:** Program berhasil menerima input nama, NIM, kelas, dan tahun lahir serta menghitung perkiraan umur berdasarkan tahun lahir.

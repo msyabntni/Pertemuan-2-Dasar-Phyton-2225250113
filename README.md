@@ -82,7 +82,7 @@ Kemudian masukkan koordinat titik A dan titik B sesuai dengan input yang diminta
 | Test Case | Nama | NIM | Kelas | Tahun Lahir | Hasil Umur |
 |---|---|---|---|---:|---:|
 | 1 | Masya | 2225250113 | Pendidikan Matematika | 2006 | 20 tahun |
-| 2 | Siti | 1234567890 | A | 2005 | 21 tahun |
+
 
 **Hasil:** Program berhasil menerima input nama, NIM, kelas, dan tahun lahir serta menghitung perkiraan umur berdasarkan tahun lahir.
 
@@ -93,7 +93,7 @@ Kemudian masukkan koordinat titik A dan titik B sesuai dengan input yang diminta
 | Test Case | Panjang | Lebar | Luas | Keliling |
 |---|---:|---:|---:|---:|
 | 1 | 8 | 5 | 40.00 | 26.00 |
-| 2 | 2.5 | 4 | 10.00 | 13.00 |
+
 
 **Hasil:** Program berhasil menghitung luas dan keliling persegi panjang sesuai dengan rumus.
 
@@ -114,8 +114,8 @@ Kemudian masukkan koordinat titik A dan titik B sesuai dengan input yang diminta
 
 | Test Case | Nilai Tugas | Nilai UTS | Nilai UAS | Nilai Akhir |
 |---|---:|---:|---:|---:|
-| 1 | 80 | 75 | 90 | 82.50 |
-| 2 | 70 | 80 | 85 | 79.00 |
+| 1 | 80 | 80 | 80 | 80.00 |
+
 
 **Hasil:** Program berhasil menghitung nilai akhir berdasarkan bobot nilai tugas 30%, UTS 30%, dan UAS 40%.
 

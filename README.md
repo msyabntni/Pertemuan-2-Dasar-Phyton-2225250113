@@ -64,8 +64,9 @@ Setelah menjalankan program, masukkan data sesuai dengan input yang diminta pada
 ```bash
 python latihan/04_nilai_akhir.py
 ```
+### Tugas Utama 
 
-### Tugas Utama - Kalkulator Koordinat Dua Titik
+### Kalkulator Koordinat Dua Titik
 
 Jalankan program melalui terminal dengan perintah:
 
